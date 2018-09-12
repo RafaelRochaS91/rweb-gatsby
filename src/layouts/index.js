@@ -1,45 +1,24 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
-import Header from '../components/header'
-import './index.css'
-
-const Layout = ({ children, data }) => (
+const Layout = ({ children }) => (
   <div>
     <Helmet
-      title={data.site.siteMetadata.title}
+      title={'RWeb'}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Personal Webpage of Rafael Rocha' },
+        { name: 'keywords', content: 'rafael rocha, portfolio, website' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <main>
       {children()}
-    </div>
+    </main>
   </div>
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.func,
-}
+};
 
-export default Layout
-
-export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
+export default Layout;
