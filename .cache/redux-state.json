@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4f8406554884b69b649bf43315ad114a",
+        "contentDigest": "6beac747217da4767f35c2b5e4383888",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -237,7 +237,10 @@
           "noscript",
           "style"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -276,11 +279,94 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1388fedcacbdc5cf15743eb92eacb64f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a77c4ad8ddfd7c099694aea8fa852ba5",
+      "version": "4594bd83a5f8d24617acb50f1a5b849f",
       "pluginOptions": {
         "plugins": []
       },
@@ -307,8 +393,20 @@
             "version": "^1.6.46"
           },
           {
+            "name": "gatsby-plugin-postcss-sass",
+            "version": "^1.0.22"
+          },
+          {
+            "name": "gatsby-plugin-react-css-modules",
+            "version": "^1.0.15"
+          },
+          {
             "name": "gatsby-plugin-react-helmet",
             "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.26"
           },
           {
             "name": "react-helmet",
@@ -328,7 +426,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4bd3d60a5ce88f449cf8f1da8f9198a1",
+        "contentDigest": "45e6c1ddc1e5269635c1229b6cba87c3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -358,7 +456,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -420,12 +521,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-12T10:59:26.591Z",
+      "buildTime": "2018-09-12T12:26:08.385Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bbb58d604be2bb6e4b6b613df9c38355",
+        "contentDigest": "bbe73b9ed694eec1225a771d482bcfb1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -446,7 +547,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a79bed046c6ca865af961c1fa37218d1",
+        "contentDigest": "e9528d14a1b7f311c3416c57f2b43f4b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -467,7 +568,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ad026f2a9ff18ff4a749551e658c4657",
+        "contentDigest": "196667d526ed18c2b5fe1160ac1f0375",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -488,22 +589,39 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4cc950094f474a3af0901e43e43d103d",
+        "contentDigest": "02dc2aec510e83252bd9f750de4b7e88",
         "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /styleguide/": {
+      "layout": "index",
+      "jsonName": "styleguide.json",
+      "internalComponentName": "ComponentStyleguide",
+      "path": "/styleguide/",
+      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
+      "componentChunkName": "component---src-pages-styleguide-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
+      "id": "SitePage /styleguide/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2e5e10e4e839d1f685dbc27cc2731ab7",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "673643eb1ce4b27a13383d8dd93b20b9"
+    "PLUGINS_HASH": "163be7bc73de9770fca7e2f920e386b7"
   },
   "componentDataDependencies": {
-    "nodes": {
-      "Site": [
-        "LAYOUT___index"
-      ]
-    },
+    "nodes": {},
     "connections": {
       "SitePage": [
         "/dev-404-page/"

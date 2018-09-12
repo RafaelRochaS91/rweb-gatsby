@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
+import styles from './layout.module.scss';
+
 const Layout = ({ children }) => (
   <div>
     <Helmet
@@ -11,7 +13,7 @@ const Layout = ({ children }) => (
         { name: 'keywords', content: 'rafael rocha, portfolio, website' },
       ]}
     />
-    <main>
+    <main className={styles.main}>
       {children()}
     </main>
   </div>
