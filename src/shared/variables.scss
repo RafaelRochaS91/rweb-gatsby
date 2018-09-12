@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Pacifico|Varela+Round');
+
+/* FontFamilies */
+$font-dosis: 'Dosis', sans-serif; // header
+$font-varela: 'Varela Round', sans-serif; // text 
+$font-pacifico: 'Pacifico', cursive; // button
+
+/* FontSizes */
+$font-weight-super-bold: 900;
+$font-weight-bold: bold;
+$font-weight-normal: 400;
+$font-weight-light: 300;
+
+/* Colors */
+$font-colors-text: #1c232d;
+$font-colors-main-header: #364d6d;
+$button-colors-danger: #af2a30;
+$button-colors-primary: #b0d6e5;
+$button-colors-secondary: #e1e9ed;
+
+/* ScreenSizes */
+$mobile-max-width: 27.1875rem;
+$desktop-small-max-width: 73.125rem;
+$desktop-large-max-width: 100rem;
+
+/* MediaQuery Breakpoints */
+$breakpoints: (
+    desktop: $mobile-max-width
+);
+
+$h1-font-sizes: (
+    mobile: (
+        font-size: 2rem,
+        line-height: 2.375rem,
+    ),
+    desktop: (
+        font-size: 3rem,
+        line-height: 3.5625rem,
+    )
+);
+
+$h2-font-sizes: (
+    mobile: (
+        font-size: 1.625rem,
+        line-height: 1.75rem,
+
+    ),
+    desktop: (
+        font-size: 2.25rem,
+        line-height: 2.6875rem,
+    )
+);
+
+$h3-font-sizes: (
+    mobile: (
+        font-size: 1.25rem,
+        line-height: 1.75rem,
+
+    ),
+    desktop: (
+        font-size: 1.75rem,
+        line-height: 2rem,
+    )
+);
+
+$body-font-sizes: (
+    mobile:(
+        font-size: 0.875rem,
+        line-height: 1.5rem,
+    ),
+    desktop: (
+        font-size: 1rem,
+        line-height: 1.625rem,
+    )
+);
+
+$body-font-sizes--18: (
+    mobile: (
+        font-size: 0.875rem,
+        line-height: 1.5rem,
+    ),
+    desktop: (
+        font-size: 1.125rem,
+        line-height: 2rem,
+    )
+);
+
+$li-font-sizes: (
+    mobile:(
+        font-size: 1rem,
+        line-height: 2rem,
+    ),
+    desktop: (
+        font-size: 1rem,
+        line-height: 2rem,
+    )
+);
+
+$button-large-size: (
+    mobile: (
+        border-radius: 1.875rem,
+        font-size: 1.25rem,
+        line-height: 1.25rem,
+        letter-spacing: -0.015625rem,
+    ),
+    desktop: (
+        border-radius: 1.875rem,
+        font-size: 1.25rem,
+        line-height: 1.25rem,
+        letter-spacing: -0.015625rem,
+    )
+);
+
+$button-small-sizes: (
+    mobile: (
+        height: 2.375rem,
+        width: 8.625rem,
+        border-radius: 1.5rem,
+        font-size: 0.875rem,
+        line-height: 0.875rem,
+    ),
+    desktop: (
+        height: 3rem,
+        width: 10.3125rem,
+        border-radius: 1.5rem,
+        font-size: 1rem,
+        line-height: 1rem,
+        letter-spacing: -0.01rem,
+    )
+);

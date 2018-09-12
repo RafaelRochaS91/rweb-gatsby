@@ -614,6 +614,27 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /styleguide/components/ButtonsList/": {
+      "layout": "index",
+      "jsonName": "styleguide-components-buttons-list.json",
+      "internalComponentName": "ComponentStyleguideComponentsButtonsList",
+      "path": "/styleguide/components/ButtonsList/",
+      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/components/ButtonsList.js",
+      "componentChunkName": "component---src-pages-styleguide-components-buttons-list-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/components/ButtonsList.js",
+      "id": "SitePage /styleguide/components/ButtonsList/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7d45af6dd09000d6899759b9ce50f277",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
