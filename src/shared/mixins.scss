@@ -1,1 +1,84 @@
-@mixin desktop(){}
+/*
+* text styling based on provided input
+*/
+@mixin text($fontFamily, $fontSizes, $color, $fontWeight: null) {
+    font-family: $fontFamily;
+    color: $color;
+    margin: 0;
+
+    @include font-size($fontSizes);
+
+    @if ($fontWeight) {
+        font-weight: $fontWeight;
+    }
+}
+
+/*
+*   build fonts by destructuring its css properties,
+*   according to breakpoints
+*/
+@mixin font-size($fontSizes) {
+    @include destruct-sizes($fontSizes, $breakpoints);
+}
+
+/**
+ * Build button size by destructuring its css properties,
+ * according the breakpoints.
+ */
+ @mixin button-size($buttonSizes) {
+	@include destruct-sizes($buttonSizes, $breakpoints);
+}
+
+/**
+ * Destruct sizes structure by taking into account the breakpoints
+ */
+ @mixin destruct-sizes($sizesMap, $sizesBreakpoints: $breakpoints) {
+	@each $breakpoint, $sizes in $sizesMap {
+		@if $breakpoint == mobile {
+			@include destruct-map($sizes);
+		} @else {
+			// If $breakpoint is a key that exists in
+			// $sizesBreakpoints, use the value
+			@if map-has-key($sizesBreakpoints, $breakpoint) {
+				// Update $breakpoint to use real value in px
+				$breakpoint: map-get($sizesBreakpoints, $breakpoint);
+			}
+			@media screen and (min-width: $breakpoint) {
+				@include destruct-map($sizes);
+			}
+		}
+	}
+}
+
+/**
+ * Destruct a map into a set of css properties, mainly:
+ * map's key = property name
+ * map's value = property value
+ */
+ @mixin destruct-map($map) {
+	@each $key, $value in $map {
+		#{$key}: #{$value};
+	}
+}
+
+
+/* media query for desktop sizes */
+@mixin desktop(){
+    @media (min-width: #{$mobile-max-width + 1}) {
+        @content;
+    }
+}
+
+/**
+ * Mixin to set background image for retina screens
+ */
+@mixin background-image-retina($file, $type, $size) {
+    background-image: url($file + '.' + $type);
+      background-size: $size;
+      
+    @media (-webkit-min-device-pixel-ratio: 2) {
+      & {
+        background-image: url($file + '@2x.' + $type);
+      }
+    }
+  }

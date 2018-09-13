@@ -1,0 +1,47 @@
+@import "./mixins.scss";
+
+body {
+
+    position: relative;
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+main {
+
+    margin: 7.75rem 1rem 3.5rem 1rem;
+
+    @include desktop {
+        margin: 3.5rem;
+    }
+}
+
+h1 {
+    @include text(
+        $font-dosis,
+        $h1-font-sizes,
+        $font-colors-main-header,
+        $font-weight-super-bold
+    );
+}
+
+h2 {
+    @include text(
+        $font-dosis,
+        $h2-font-sizes,
+        $font-colors-main-header,
+        $font-weight-super-bold
+    );
+}
+
+h3 {
+    @include text(
+        $font-dosis,
+        $h3-font-sizes,
+        $font-colors-main-header,
+        $font-weight-super-bold
+    );
+}
+
+

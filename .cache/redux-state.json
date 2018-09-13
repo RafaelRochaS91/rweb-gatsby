@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6beac747217da4767f35c2b5e4383888",
+        "contentDigest": "59ff6c7dec95c3163bb604221f7d1871",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -385,6 +385,10 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "classnames",
+            "version": "^2.2.6"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.277"
           },
@@ -521,12 +525,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-12T12:26:08.385Z",
+      "buildTime": "2018-09-13T09:10:14.998Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bbe73b9ed694eec1225a771d482bcfb1",
+        "contentDigest": "23ffe63bce0ba38194fc933dbcca1d2b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -547,7 +551,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e9528d14a1b7f311c3416c57f2b43f4b",
+        "contentDigest": "26888f0651744c34e9e17717fcf173cd",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -568,7 +572,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "196667d526ed18c2b5fe1160ac1f0375",
+        "contentDigest": "b07cdb9764ffb7715355efff716e703f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /styleguide/": {
+      "layout": "index",
+      "jsonName": "styleguide.json",
+      "internalComponentName": "ComponentStyleguide",
+      "path": "/styleguide/",
+      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
+      "componentChunkName": "component---src-pages-styleguide-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
+      "id": "SitePage /styleguide/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "486a7a91e0b6513f6bc572f310606909",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -589,57 +614,15 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "02dc2aec510e83252bd9f750de4b7e88",
+        "contentDigest": "cc2ff7602961dfc89cf68de6f3e8142a",
         "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /styleguide/": {
-      "layout": "index",
-      "jsonName": "styleguide.json",
-      "internalComponentName": "ComponentStyleguide",
-      "path": "/styleguide/",
-      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
-      "componentChunkName": "component---src-pages-styleguide-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
-      "id": "SitePage /styleguide/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2e5e10e4e839d1f685dbc27cc2731ab7",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /styleguide/components/ButtonsList/": {
-      "layout": "index",
-      "jsonName": "styleguide-components-buttons-list.json",
-      "internalComponentName": "ComponentStyleguideComponentsButtonsList",
-      "path": "/styleguide/components/ButtonsList/",
-      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/components/ButtonsList.js",
-      "componentChunkName": "component---src-pages-styleguide-components-buttons-list-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/components/ButtonsList.js",
-      "id": "SitePage /styleguide/components/ButtonsList/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7d45af6dd09000d6899759b9ce50f277",
-        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "163be7bc73de9770fca7e2f920e386b7"
+    "PLUGINS_HASH": "3f8b709426f490855f1736cbaaccacd6"
   },
   "componentDataDependencies": {
     "nodes": {},
