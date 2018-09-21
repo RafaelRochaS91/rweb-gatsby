@@ -9,12 +9,12 @@ class RButton extends PureComponent {
     const { text, onClick, danger, primary, secondary } = this.props;
     const buttonClass = cx(
       styles.button,
-      { ['--primary']: primary },
-      { ['--danger']: danger },
-      { ['--secondary']: secondary }
+      { [ styles['button--primary'] ]: primary  },
+      { [ styles['button--secondary']]: secondary },
+      { [ styles['button--danger'] ]: danger },
     );
 
-    return <button className={buttonClass} onClick={onClick}>{text}</button>;
+    return <button className={buttonClass} onClick={onClick}><p className={buttonClass}>{text}</p></button>;
   }
 }
 
