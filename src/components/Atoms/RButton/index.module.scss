@@ -2,27 +2,27 @@
 @import "../../../shared/variables";
 @import "../../../shared/styleguide.scss";
 
-
 /* RButton Styles */
-
 .button {
-
     border-radius: 25%;
+    background-color: rgb(207, 215, 255);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto auto;
+    background-origin: padding-box;
+    background-clip: border-box;
 
     &--primary {
-
         background-color: $button-colors-primary;
     }
-
     &--secondary {
-
         background-color: $button-colors-secondary;
     }
-
     &--danger {
-
         background-color: $button-colors-danger;
-
     }
-  
+
 }

@@ -13,7 +13,7 @@ class Home extends React.Component {
   render() {
     return(
       <section className="home">
-        <RButton text={'test'} />
+        <RButton text={'Styleguide'} to={'styleguide'} link/>
       </section>
     )
   }

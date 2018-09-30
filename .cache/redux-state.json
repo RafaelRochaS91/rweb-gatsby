@@ -5,24 +5,24 @@
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/.cache/dev-404-page.js",
+      "component": "/home/rafarocha91/Desktop/projects/rweb-gatsby/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/.cache/dev-404-page.js",
+      "componentPath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a8cfecca6931a9b5276a62fc0f7dc32b",
+        "contentDigest": "b09736c4a59355e2a5c0c18506cbe78e",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +34,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,13 +51,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "47caed1ae3bd41dd028dec1ffafc884d",
+        "contentDigest": "5539cc9587e4b11b12e5b82dd0060643",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -69,7 +69,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -90,13 +90,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ee46803a80e1e484eddada43d0c208da",
+        "contentDigest": "278512ef05b27b52e65fdeac782a4775",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -109,7 +109,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -126,13 +126,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e8d4cadbb4de102d6366cfb6b68d76fa",
+        "contentDigest": "51eba357e52c80602a6f9820799f71e5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -144,7 +144,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -161,13 +161,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7a92b9ff538700d6b7edd39abf0a5bab",
+        "contentDigest": "2ecf5fad2779dcf79f852947a37b3f6b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -180,7 +180,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -197,13 +197,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "251dcf5e7e4b06936cc3884c98b33c37",
+        "contentDigest": "77c2d5092bb0c5cbe9f9b80688a783a2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "2.0.11",
@@ -215,7 +215,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -274,13 +274,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "97386d2e173378246bdc30fcd6384205",
+        "contentDigest": "a0440c8edd29c6701395c818458b9d3d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sass": {
-      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-sass",
+      "resolve": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-sass",
       "id": "Plugin gatsby-plugin-sass",
       "name": "gatsby-plugin-sass",
       "version": "1.0.26",
@@ -292,7 +292,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -357,13 +357,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1388fedcacbdc5cf15743eb92eacb64f",
+        "contentDigest": "6f096c0d860aa400b19f6d8ed1c35248",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby",
+      "resolve": "/home/rafarocha91/Desktop/projects/rweb-gatsby",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "4594bd83a5f8d24617acb50f1a5b849f",
@@ -373,7 +373,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby",
+      "pluginFilepath": "/home/rafarocha91/Desktop/projects/rweb-gatsby",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -390,7 +390,7 @@
           },
           {
             "name": "gatsby",
-            "version": "^1.9.277"
+            "version": "^1.9.278"
           },
           {
             "name": "gatsby-link",
@@ -430,19 +430,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "45e6c1ddc1e5269635c1229b6cba87c3",
+        "contentDigest": "09da86ecbda2800f6bee83f4209c44db",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "1.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages",
+        "path": "/home/rafarocha91/Desktop/projects/rweb-gatsby/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -450,7 +450,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -512,7 +512,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a71e901e12838da89724f731022f0b84",
+        "contentDigest": "d8a451f3ad0e98923e71b54db46ebfaf",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -525,12 +525,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-21T09:34:09.419Z",
+      "buildTime": "2018-09-30T17:15:01.631Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "051086759159c83703b474035fd53100",
+        "contentDigest": "df68a3c8577cbf2ea2158d16e6e244ea",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -540,18 +540,18 @@
       "jsonName": "404.json",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/404.js",
+      "component": "/home/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/404.js",
+      "componentPath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "82a57f4610f458c5a4b4bba55dd8615c",
+        "contentDigest": "99aaa2bf159a5f1477a6378060e1dbb8",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -561,18 +561,18 @@
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/index.js",
+      "component": "/home/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/index.js",
+      "componentPath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "314447c0516dcd259fac61c1e08cb38e",
+        "contentDigest": "4159f9e2483be353e6474bab6aa67510",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -582,18 +582,18 @@
       "jsonName": "styleguide.json",
       "internalComponentName": "ComponentStyleguide",
       "path": "/styleguide/",
-      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
+      "component": "/home/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
       "componentChunkName": "component---src-pages-styleguide-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
+      "componentPath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/styleguide/index.js",
       "id": "SitePage /styleguide/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f80be62ed646e41c885f197d6b5da907",
+        "contentDigest": "a9a0cd4935f930f29a7cb46e5beebe52",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -603,18 +603,18 @@
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/404.js",
+      "component": "/home/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/404.js",
+      "componentPath": "/home/rafarocha91/Desktop/projects/rweb-gatsby/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b272bdd577a18dcfc90156b0eb7762c5",
+        "contentDigest": "498c57bef060c9c93fd72a766f05f794",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -622,7 +622,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "3f8b709426f490855f1736cbaaccacd6"
+    "PLUGINS_HASH": "e2c74d54327c99e4a4199e1c02dd6941"
   },
   "componentDataDependencies": {
     "nodes": {},
